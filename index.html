@@ -54,12 +54,12 @@
             <h3 class="tab3">Bags</a></h3>
             <h3 class="tab4">Wallet</a></h3>
         </div>
-        <div class="summer" style=";">
+        <div class="summer" style="display: none;">
             <h4>Winter Footwear</h4>
             <h4>Summer Footwear</h4>
         </div>
     </section>
-    <section id="mainWomen"style="margin-left: 85px;">
+    <section id="Women"style="margin-left: 85px;">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" >
             <div class="carousel-inner mainSlider">
                 <div class="carousel-item active" data-bs-interval="2000">
@@ -142,7 +142,7 @@
 
     <!--Men section begin -->
 
-    <section id="mainMen" style="display: none; margin-left: 85px;">
+    <section id="Men" style="display: none; margin-left: 85px;">
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner mainSlider">
@@ -231,7 +231,7 @@
 
     <!-- Bags section -->
 
-    <section id="mainBag" style= "margin-left: 85px;">
+    <!-- <section id="mainBag" style= "margin-left: 85px;">
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner mainSlider">
@@ -316,7 +316,8 @@
 
         </div>
         </div>
-    </section>
+    </section> -->
+
     </div>
     <div class="Compliance">
         <h1>Compliance</h1>
@@ -393,24 +394,39 @@
 
         $(document).ready(function () {
             $('.tab1').on("click", function () {
-                $('#mainWomen').show()
-                $('#mainMen').hide()
+                $('#Women').show()
+                $('#Men').hide()
                 $('.summer').show()
-
             })
             $('.tab2').on("click", function () {
-                $('#mainMen').show()
-                $('#mainWomen').hide()
+                $('#Men').show()
+                $('#Women').hide()
                 $('.summer').hide()
+  
             })
-            $('.tab3').on("click", function () {
-                $('#mainMen').hide()
-                $('#mainWomen').hide()
-                $('.summer').hide()
-                $('#mainBag').show()
-            })
+            // $('.tab3').on("click", function () {
+            //     $('#mainMen').hide()
+            //     $('#mainWomen').hide()
+            //     $('.summer').hide()
+            //     $('#mainBag').show()
+            // })
 
         });
+
+
+//         $( document ).ready(function() {
+//     $('.tabs').on("click",function(){
+//       $('#womens').show()
+//       $('#mens').hide()
+//     })
+//     $('.tabs1').on("click",function(){
+//       $('#mens').show()
+//       $('#womens').hide()
+//     })
+// });
+
+
+
     </script>
 
 </body>
