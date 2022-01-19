@@ -117,44 +117,38 @@ nav a img{
   border-bottom: 1px solid #c9a35a;
 
 }
-.carousel-inner.mainSlider {
-    width: 93%;
-    margin-top: 80px;
+.picture1{
+
+  margin: 0px 87px; 
+}
+.picture2{
+
+    margin: 0px 87px; 
+  }
+.mainsubSlider1{
+    padding: 50px 120px 30px 120px;
+}
+.mainsubSlider{
+
+    display: flex;
+    padding: 51px 120px 38px 132px;
+}
+.mainsubSlider2{
+    display: flex;
+    padding: 51px 120px 38px 132px;     
 }
 
 .banner{
     display: flex;
-    margin-top: 40px;
-    /* margin-left: 2%; */
-}
-
-.carousel-inner.subSlider-left{
-    margin-top: 40px;
-}
-.carousel-inner.subSlider-right{
-    margin-top: 40px;
-    margin-right: 50px;
-    padding: 0px 30px;
-}
-.mainsubSlider {
-    display: flex;
-    padding: 0px auto;
-    justify-content: space-between;
-}
-.carousel-inner.sub-Banner {
-    width: 93%;
+    margin-top: 25px;
 }
 .mainBanner{
-    margin-top: 55px;
+    padding: 51px 120px 38px 132px;
 }
-.mainsubSlider2{
-    display: flex;
-    padding: 0px auto;
-    justify-content: space-between;
-}
+
 .Compliance{
   text-align: center;
-    margin: 225px 0px;
+  margin: 100px 0px;
     
  }
  .Compliance h1{
@@ -302,7 +296,7 @@ nav ul{
 .content{
     float: right;
       /* margin:unset; */
-    text-align: center;
+      margin: 188px auto;
 }
 nav img {
     margin: 13px auto;
@@ -332,7 +326,7 @@ nav img {
     height: auto;
     margin-top: 40px;
     
-    /* margin-left: 2%; */
+ 
 }
 .mainsubSlider {
     display: block;
@@ -341,11 +335,20 @@ nav img {
 }
 .carousel-item active img{
     width: -webkit-fill-available;
+    margin: auto;
+    padding: 25px 30px;
 
 }
+
 .carousel-item img{
     width: -webkit-fill-available;
-    max-width: unset;
+    margin: auto;
+    padding: 25px 30px;
+
+}
+.carousel-item active img{
+    width: 503px;
+    margin: unset;
 }
 
 
@@ -474,11 +477,35 @@ nav img {
     display: none;
 }
 .content {
-    float: right;
+    float: none;
     text-align: center;
-    margin: 197px auto;
+
 }
 
+.mainsubSlider1{
+    padding: unset;
+}
+.mainsubSlider{
+    padding: unset;
+}
+
+.picture1{
+    margin: unset;
+
+}
+.picture2{
+    margin: unset;
+    
+}
+.mainBanner{
+    padding: unset;
+}
+.mainsubSlider2{
+display: block;
+padding: unset;
+width: 93%;
+
+}
 
 
 
