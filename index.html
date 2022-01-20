@@ -320,7 +320,19 @@
         </div>
         </div>
     </section>
-    </div>
+
+     <section id="wallets">
+           <div class="mainWallet">
+    <div class="firstImg">
+          <img src="./images/mens-14-1.jpg" alt="" srcset="">
+          <img src="./images/mens-15-1.jpg" alt="" srcset="">
+          <img src="./images/mens-16.jpg" alt="" srcset="">
+        </div>
+        <div class="firstImg">
+          <img src="./images/mens-17.png" alt="" srcset="">
+          <img src="./images/mens-18.jpg" alt="" srcset="">
+        </div>
+     </section>
     <div class="Compliance">
         <h1>Compliance</h1>
         <p>We follow all the compliance procedures of the industry rigorously. Our raw material is only sourced from
@@ -400,12 +412,14 @@
                 $('#Men').hide()
                 $('.summer').show()
                 $('#Bag').hide()
+                $('#wallets').hide()
             })
             $('.tab2').on("click", function () {
                 $('#Men').show()
                 $('#Women').hide()
                 $('.summer').hide()
                 $('#Bag').hide()
+                $('#wallets').hide()
 
   
             })
@@ -414,6 +428,16 @@
                 $('#Women').hide()
                 $('.summer').hide()
                 $('#Bag').show()
+                $('#wallets').hide()
+            })
+
+
+            $('.tab4').on("click", function () {
+                $('#Men').hide()
+                $('#Women').hide()
+                $('.summer').hide()
+                $('#Bag').hide()
+                $('#wallets').show()
             })
 
         });

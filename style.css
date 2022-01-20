@@ -139,6 +139,20 @@ nav a img{
     display: flex;
     padding: 51px 120px 38px 132px;     
 }
+.mainWallet{
+    display: grid;
+    margin-left: 119px;
+}
+
+.firstImg img{
+    height: 380px;
+    padding: 0px 12px;
+}
+.firstImg img{
+    margin-top: 30px;
+}
+
+
 
 .banner{
     display: flex;
@@ -362,6 +376,18 @@ nav img {
        display: block;
     justify-content: center;
 }
+
+.mainWallet{
+    display: block;
+    margin: unset;
+}
+
+.firstImg img{
+    padding: 0px 12px;
+    width: -webkit-fill-available;
+    height: unset;
+}
+
 .footer{
     max-width: 1520px;
     margin: 0 auto;
